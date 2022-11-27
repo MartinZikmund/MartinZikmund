@@ -3,7 +3,7 @@
 
 ## Find me on
 
-Mastodon: <a rel="me" href="https://dotnet.social/@mzikmund">@mzikmund@dotnet.social</a>
+Mastodon: <a rel="me" href="https://dotnet.social/@mzikmund">mzikmund</a>
 
 
 <!--
