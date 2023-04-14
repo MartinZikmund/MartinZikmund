@@ -1,9 +1,33 @@
-### Hi there 👋
+# Hi there 👋
+
+I'm Martin Zikmund, Microsoft Developer Technologies MVP from Czechia 🇨🇿. I specialize in architecting and building cross-platform mobile and cloud solutions on the Microsoft technology stack. 
+
+Currently I'm working on bringing WinUI everywhere with Uno Platform!
+
+## 🔭 What I'm working on
+
+- [Uno Platform](https://platform.uno/), an open-source platform for building native mobile, desktop, and WebAssembly apps with C# and XAML
+
+- [Playing with Physics](https://github.com/MartinZikmund/playing-with-physics), a series of fun physics simulations using WinUI and C#
+
+## 📫 How to reach me
+
+- Blog: https://blog.mzikmund.com/
+- Twitter: https://twitter.com/mzikmunddev
+- YouTube: https://www.youtube.com/@mzikmunddev
+- LinkedIn: https://www.linkedin.com/in/martin-zikmund/
+- Mastodon: 
+https://dotnet.social/@mzikmund
+- Email: martin@mzikmund.dev
+
+## 😄 Fun facts
+
+- I love bouldering, climbing, playing squash, gaming on Xbox, reading, and geocaching
 
 
 ## Find me on
 
-Mastodon: <a rel="me" href="https://dotnet.social/@mzikmund">mzikmund</a>
+Mastodon: <a rel="me" href="">mzikmund</a>
 
 
 <!--
