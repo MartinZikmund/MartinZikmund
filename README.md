@@ -25,11 +25,6 @@ https://dotnet.social/@mzikmund
 - I love bouldering, climbing, playing squash, gaming on Xbox, reading, and geocaching
 
 
-## Find me on
-
-Mastodon: <a rel="me" href="">mzikmund</a>
-
-
 <!--
 **MartinZikmund/MartinZikmund** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
