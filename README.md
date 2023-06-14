@@ -18,7 +18,7 @@ Currently I'm working on bringing WinUI everywhere with Uno Platform!
 - LinkedIn: https://www.linkedin.com/in/mzikmund/
 - Mastodon: 
 https://dotnet.social/@mzikmund
-- Email: martin@mzikmund.dev
+- Email: martin@zikmund.dev
 
 ## 😄 Fun facts
 
