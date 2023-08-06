@@ -8,7 +8,7 @@ Currently I'm working on bringing WinUI everywhere with Uno Platform!
 
 - [Uno Platform](https://platform.uno/), an open-source platform for building native mobile, desktop, and WebAssembly apps with C# and XAML
 
-- [Playing with Physics](https://github.com/MartinZikmund/playing-with-physics), a series of fun physics simulations using WinUI and C#
+- [Playing with Physics](https://github.com/MartinZikmund/PlayingWithPhysics), a series of fun physics simulations using WinUI and C#
 
 ## 📫 How to reach me
 
