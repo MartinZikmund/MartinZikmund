@@ -12,7 +12,7 @@ Currently I'm working on bringing WinUI everywhere with Uno Platform!
 
 ## 📫 How to reach me
 
-- Blog: https://blog.mzikmund.com/
+- Website & blog: https://mzikmund.dev/
 - Twitter: https://twitter.com/mzikmunddev
 - YouTube: https://www.youtube.com/@mzikmund
 - LinkedIn: https://www.linkedin.com/in/mzikmund/
