@@ -24,6 +24,9 @@ https://dotnet.social/@mzikmund
 
 - I love bouldering, climbing, playing squash, gaming on Xbox, reading, and geocaching
 
+## Stats
+
+[![Martin's GitHub stats](https://github-readme-stats.vercel.app/api?username=MartinZikmund)](https://github.com/anuraghazra/github-readme-stats)
 
 <!--
 **MartinZikmund/MartinZikmund** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
