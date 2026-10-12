@@ -42,16 +42,16 @@ text{font-family:'Segoe UI Variable Text','Segoe UI',-apple-system,BlinkMacSyste
 <text x="270" y="195" font-size="14"><tspan class="sb">Microsoft MVP</tspan><tspan class="s">  ·  Developer Technologies  ·  International conference speaker</tspan></text>
 <rect x="228.0" y="228" width="137.0" height="80" rx="8" fill="#2D2D2D" stroke="#3B3B3B"/>
 <text x="244.0" y="266" font-size="28" class="d sb a">10,100+</text>
-<text x="244.0" y="290" font-size="12" class="s">Uno Platform commits</text>
+<text x="244.0" y="290" font-size="12" class="s">commits to Uno</text>
 <rect x="377.0" y="228" width="137.0" height="80" rx="8" fill="#2D2D2D" stroke="#3B3B3B"/>
 <text x="393.0" y="266" font-size="28" class="d sb a">1,480+</text>
-<text x="393.0" y="290" font-size="12" class="s">merged pull requests</text>
+<text x="393.0" y="290" font-size="12" class="s">merged PRs</text>
 <rect x="526.0" y="228" width="137.0" height="80" rx="8" fill="#2D2D2D" stroke="#3B3B3B"/>
 <text x="542.0" y="266" font-size="28" class="d sb a">25+</text>
 <text x="542.0" y="290" font-size="12" class="s">conference talks</text>
 <rect x="675.0" y="228" width="137.0" height="80" rx="8" fill="#2D2D2D" stroke="#3B3B3B"/>
 <text x="691.0" y="266" font-size="28" class="d sb a">14</text>
-<text x="691.0" y="290" font-size="12" class="s">PRs to WinUI itself</text>
+<text x="691.0" y="290" font-size="12" class="s">PRs to WinUI</text>
 <text x="228" y="338" font-size="12" class="c">Currently: porting WinUI to every platform<tspan class="caret">▍</tspan></text>
 <defs><clipPath id="pb"><rect x="228" y="350" width="584" height="3" rx="1.5"/></clipPath></defs>
 <rect x="228" y="351" width="584" height="1" fill="#4A4A4A"/>

@@ -120,7 +120,7 @@ def hero(t):
     b.append(icon("info", x + 14, 182, t["accent"]))
     b.append(f'<text x="{x+42}" y="195" font-size="14"><tspan class="sb">Microsoft MVP</tspan><tspan class="s">  ·  Developer Technologies  ·  International conference speaker</tspan></text>')
     # Stat cards
-    stats = [("10,100+", "Uno Platform commits"), ("1,480+", "merged pull requests"), ("25+", "conference talks"), ("14", "PRs to WinUI itself")]
+    stats = [("10,100+", "commits to Uno"), ("1,480+", "merged PRs"), ("25+", "conference talks"), ("14", "PRs to WinUI")]
     cw = (W - x - 28 - 3 * 12) / 4
     for i, (n, l) in enumerate(stats):
         sx = x + i * (cw + 12)
@@ -233,7 +233,7 @@ def achievements(t):
         b.append(f'<text x="{x+76:.1f}" y="{y+44}" font-size="15" class="sb">{escape(title)}</text>')
         b.append(f'<text x="{x+76:.1f}" y="{y+62}" font-size="12" class="s">{escape(sub)}</text>')
     H = 3 * ch + 2 * gap + 1
-    return svg(W, H, "\n".join(b), t, "Achievements: top Uno Platform contributor, Microsoft MVP, Stack Overflow, olympiad medals, speaking")
+    return svg(W, H, "\n".join(b), t, "Achievements: top Uno Platform contributor, Microsoft MVP, AI agent tooling, olympiad medals, Most Active Speaker")
 
 
 for theme, t in THEMES.items():
