@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="253" viewBox="0 0 840 253" role="img" aria-label="Achievements: top Uno Platform contributor, Microsoft MVP, Stack Overflow, olympiad medals, speaking">
+<title>Achievements: top Uno Platform contributor, Microsoft MVP, Stack Overflow, olympiad medals, speaking</title>
+<style>
+text{font-family:'Segoe UI Variable Text','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif;fill:#FFFFFF}
+.d{font-family:'Segoe UI Variable Display','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif}
+.s{fill:#CFCFCF} .c{fill:#9A9A9A} .a{fill:#60CDFF} .oa{fill:#003E5C}
+.sb{font-weight:600}
+@keyframes slide{0%{transform:translateX(-160px)}100%{transform:translateX(620px)}}
+@keyframes blink{0%,49%{opacity:1}50%,100%{opacity:0}}
+.bar{animation:slide 2.4s cubic-bezier(.4,0,.2,1) infinite}
+.caret{animation:blink 1.1s step-end infinite}
+@media (prefers-reduced-motion: reduce){.bar,.caret{animation:none}}
+</style>
+<rect x="0.5" y="0.5" width="413.0" height="76" rx="38" fill="#2D2D2D" stroke="#3B3B3B"/>
+<circle cx="38.5" cy="38.5" r="24" fill="#433519"/>
+<text x="38.5" y="46.5" font-size="22" text-anchor="middle">🏆</text>
+<text x="76.5" y="24.5" font-size="10" class="c sb" letter-spacing="0.8">ACHIEVEMENT UNLOCKED</text>
+<text x="76.5" y="44.5" font-size="15" class="sb">#1 Uno Platform contributor</text>
+<text x="76.5" y="62.5" font-size="12" class="s">Most commits since it went open source</text>
+<rect x="426.5" y="0.5" width="413.0" height="76" rx="38" fill="#2D2D2D" stroke="#3B3B3B"/>
+<circle cx="464.5" cy="38.5" r="24" fill="#433519"/>
+<text x="464.5" y="46.5" font-size="22" text-anchor="middle">🏆</text>
+<text x="502.5" y="24.5" font-size="10" class="c sb" letter-spacing="0.8">ACHIEVEMENT UNLOCKED</text>
+<text x="502.5" y="44.5" font-size="15" class="sb">Microsoft MVP</text>
+<text x="502.5" y="62.5" font-size="12" class="s">Developer Technologies</text>
+<rect x="0.5" y="88.5" width="413.0" height="76" rx="38" fill="#2D2D2D" stroke="#3B3B3B"/>
+<circle cx="38.5" cy="126.5" r="24" fill="#433519"/>
+<text x="38.5" y="134.5" font-size="22" text-anchor="middle">🏆</text>
+<text x="76.5" y="112.5" font-size="10" class="c sb" letter-spacing="0.8">ACHIEVEMENT UNLOCKED</text>
+<text x="76.5" y="132.5" font-size="15" class="sb">Agent wrangler</text>
+<text x="76.5" y="150.5" font-size="12" class="s">Built the Claude Code agent setup Uno runs on</text>
+<rect x="426.5" y="88.5" width="413.0" height="76" rx="38" fill="#2D2D2D" stroke="#3B3B3B"/>
+<circle cx="464.5" cy="126.5" r="24" fill="#433519"/>
+<text x="464.5" y="134.5" font-size="22" text-anchor="middle">🏆</text>
+<text x="502.5" y="112.5" font-size="10" class="c sb" letter-spacing="0.8">ACHIEVEMENT UNLOCKED</text>
+<text x="502.5" y="132.5" font-size="15" class="sb">Bronze medal</text>
+<text x="502.5" y="150.5" font-size="12" class="s">Central European Olympiad in Informatics</text>
+<rect x="0.5" y="176.5" width="413.0" height="76" rx="38" fill="#2D2D2D" stroke="#3B3B3B"/>
+<circle cx="38.5" cy="214.5" r="24" fill="#433519"/>
+<text x="38.5" y="222.5" font-size="22" text-anchor="middle">🏆</text>
+<text x="76.5" y="200.5" font-size="10" class="c sb" letter-spacing="0.8">ACHIEVEMENT UNLOCKED</text>
+<text x="76.5" y="220.5" font-size="15" class="sb">Double national champion</text>
+<text x="76.5" y="238.5" font-size="12" class="s">Czech Olympiads in Informatics and Linguistics</text>
+<rect x="426.5" y="176.5" width="413.0" height="76" rx="38" fill="#2D2D2D" stroke="#3B3B3B"/>
+<circle cx="464.5" cy="214.5" r="24" fill="#433519"/>
+<text x="464.5" y="222.5" font-size="22" text-anchor="middle">🏆</text>
+<text x="502.5" y="200.5" font-size="10" class="c sb" letter-spacing="0.8">ACHIEVEMENT UNLOCKED</text>
+<text x="502.5" y="220.5" font-size="15" class="sb">Most Active Speaker</text>
+<text x="502.5" y="238.5" font-size="12" class="s">Sessionize, 2022 and 2024</text>
+</svg>
