@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="10.8 10.8 234.3 234.3">
+  <defs>
+    <linearGradient id="tm-plate" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#E6DFCB"/>
+    </linearGradient>
+    <linearGradient id="tm-long" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#3A6244"/>
+      <stop offset="1" stop-color="#7DB26A"/>
+    </linearGradient>
+    <radialGradient id="tm-blue" cx=".35" cy=".3" r=".8">
+      <stop offset="0" stop-color="#9C93E0"/>
+      <stop offset="1" stop-color="#4A3F97"/>
+    </radialGradient>
+    <radialGradient id="tm-rasp" cx=".35" cy=".3" r=".8">
+      <stop offset="0" stop-color="#F58A7C"/>
+      <stop offset="1" stop-color="#C0392F"/>
+    </radialGradient>
+    <radialGradient id="tm-gold" cx=".35" cy=".3" r=".8">
+      <stop offset="0" stop-color="#FFE08A"/>
+      <stop offset="1" stop-color="#E0901E"/>
+    </radialGradient>
+    <radialGradient id="tm-currant" cx=".35" cy=".3" r=".8">
+      <stop offset="0" stop-color="#C58FD6"/>
+      <stop offset="1" stop-color="#6B2F7F"/>
+    </radialGradient>
+  </defs>
+
+  <circle cx="128" cy="128" r="116" fill="url(#tm-plate)"/>
+  <circle cx="128" cy="128" r="115" fill="none" stroke="#CEC6AF" stroke-width="2"/>
+  <circle cx="128" cy="128" r="86" fill="#F5F1E6" stroke="#E0D8C3" stroke-width="3"/>
+
+  <!-- blueberry, raspberry, golden berry, blackcurrant, blueberry -->
+  <circle cx="70" cy="96" r="17" fill="url(#tm-blue)"/>
+  <circle cx="98" cy="70" r="15" fill="url(#tm-rasp)"/>
+  <g fill="#FFB3A6" opacity=".55">
+    <circle cx="92" cy="68" r="3"/><circle cx="99" cy="63" r="3"/><circle cx="105" cy="69" r="3"/>
+    <circle cx="95" cy="76" r="3"/><circle cx="102" cy="77" r="3"/>
+  </g>
+  <circle cx="94" cy="104" r="14" fill="url(#tm-gold)"/>
+  <circle cx="126" cy="62" r="12" fill="url(#tm-currant)"/>
+  <circle cx="122" cy="90" r="11" fill="url(#tm-blue)"/>
+  <g fill="#FFFFFF" opacity=".6">
+    <circle cx="64" cy="90" r="4.5"/>
+    <circle cx="89" cy="99" r="3.5"/>
+    <circle cx="122" cy="58" r="3"/>
+    <circle cx="118" cy="86" r="3"/>
+  </g>
+
+  <path d="M62 138C72 128 86 128 96 140L114 162L180 78C192 64 212 64 214 70C216 78 206 96 194 108L128 186C120 196 106 196 98 186Z"
+        fill="url(#tm-long)"/>
+  <path d="M84 144L112 176L200 76" stroke="#23271F" stroke-opacity=".35" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M143 141L160 136M143 141L145 124M165 116L182 111M165 116L167 99M183 96L197 92M183 96L185 82" stroke="#23271F" stroke-opacity=".25" stroke-width="3" fill="none" stroke-linecap="round"/>
+</svg>

@@ -1,4 +1,5 @@
 """Generates Fluent/WinUI-styled SVG assets (light + dark) for the GitHub profile README."""
+import base64
 import os
 import sys
 from html import escape
@@ -180,11 +181,35 @@ def skills(t):
     return svg(W, int(hmax + 2), "\n".join(body), t, "Skills: WinUI, Uno Platform, C#, C++, performance, AI agents and more")
 
 
-def project(t, name, glyph, grad, desc, tag):
-    W, H = 272, 120
+# Real app icons from each repo: (file, tile fill or None for a neutral tile, icon inset)
+ICONS = {
+    "unodoom": ("unodoom.png", "#F3EDE4", 6),
+    "dailyplants": ("dailyplants.svg", "#4C7A56", 2),
+    "awesome": ("awesome.png", None, 5),
+    "stopwatch": ("stopwatch.svg", "#0F6CBD", 3),
+}
+
+
+def data_uri(fn):
+    mime = "image/svg+xml" if fn.endswith(".svg") else "image/png"
+    with open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "icons", fn), "rb") as f:
+        return f"data:{mime};base64,{base64.b64encode(f.read()).decode()}"
+
+
+def project(t, key, name, glyph, grad, desc, tag):
+    W, H, M = 272, 120, 6
     b = [f'<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="{grad[0]}"/><stop offset="1" stop-color="{grad[1]}"/></linearGradient></defs>']
     b.append(f'<rect x="0.5" y="0.5" width="{W-1}" height="{H-1}" rx="8" fill="{t["card"]}" stroke="{t["stroke"]}"/>')
-    b.append(f'<rect x="16" y="16" width="44" height="44" rx="8" fill="url(#g)"/><text x="38" y="46" font-size="22" text-anchor="middle" style="fill:#fff">{glyph}</text>')
+    if key in ICONS:
+        fn, fill, inset = ICONS[key]
+        if fill:
+            b.append(f'<rect x="16" y="16" width="44" height="44" rx="8" fill="{fill}"/>')
+            b.append(f'<image x="{16+inset}" y="{16+inset}" width="{44-2*inset}" height="{44-2*inset}" href="{data_uri(fn)}"/>')
+        else:
+            b.append(f'<rect x="16.5" y="16.5" width="43" height="43" rx="8" fill="{t["card2"]}" stroke="{t["stroke"]}"/>')
+            b.append(f'<image x="{16+inset}" y="{16+inset}" width="{44-2*inset}" height="{44-2*inset}" href="{data_uri(fn)}"/>')
+    else:
+        b.append(f'<rect x="16" y="16" width="44" height="44" rx="8" fill="url(#g)"/><text x="38" y="46" font-size="22" text-anchor="middle" style="fill:#fff">{glyph}</text>')
     b.append(f'<text x="72" y="36" font-size="16" class="sb">{escape(name)}</text>')
     b.append(f'<text x="72" y="56" font-size="12" class="c">{escape(tag)}</text>')
     words, lines, cur = desc.split(), [], ""
@@ -198,7 +223,8 @@ def project(t, name, glyph, grad, desc, tag):
     lines.append(cur)
     for i, ln in enumerate(lines[:2]):
         b.append(f'<text x="16" y="{84 + i*18}" font-size="13" class="s">{escape(ln)}</text>')
-    return svg(W, H, "\n".join(b), t, f"{name}: {desc}")
+    # Transparent margin gives side-by-side cards a gutter on GitHub
+    return svg(W + 2 * M, H + 2 * M, f'<g transform="translate({M} {M})">' + "\n".join(b) + "</g>", t, f"{name}: {desc}")
 
 
 PROJECTS = [
@@ -239,7 +265,7 @@ def achievements(t):
 for theme, t in THEMES.items():
     files = {f"hero-{theme}.svg": hero(t), f"skills-{theme}.svg": skills(t), f"achievements-{theme}.svg": achievements(t)}
     for key, name, glyph, grad, desc, tag in PROJECTS:
-        files[f"project-{key}-{theme}.svg"] = project(t, name, glyph, grad, desc, tag)
+        files[f"project-{key}-{theme}.svg"] = project(t, key, name, glyph, grad, desc, tag)
     for fn, content in files.items():
         with open(os.path.join(OUT, fn), "w", encoding="utf-8") as f:
             f.write(content)
