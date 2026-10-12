@@ -5,7 +5,7 @@
 - **[Uno Platform](https://github.com/unoplatform/uno)** is the open-source framework that runs WinUI apps on iOS, Android, macOS, Linux, Windows and WebAssembly from one C#/XAML codebase. I'm its No. 1 contributor since it went open source. Right now I'm porting WinUI's C++ internals 1:1 into C# (the text tree and selection engine behind RichTextBlock, ScrollView, the ItemsRepeater layouts) and chasing allocations and frame-time regressions across six targets with profilers and A/B benchmarks.
 - **[WinUI](https://github.com/microsoft/microsoft-ui-xaml/pulls?q=author%3AMartinZikmund)**: porting means reading WinUI's C++ core line by line, so I find bugs in WinUI itself. I send the C++ fixes upstream (layout passes, visual states, RTL mirroring, selection and focus handling in controls like TabView, NavigationView, CommandBar and TreeView). I also check Uno's behaviour against native WinUI with runtime tests on the Windows App SDK.
 - **AI-assisted engineering**: I built most of the [Claude Code](https://claude.com/claude-code) agent setup the Uno repo runs on, with skills for porting WinUI code, running test suites and reviewing changes.
-- **Quality and UX**: 3,200+ issues filed across Uno Platform repos. If a pixel is off, I'll find it.
+- **Quality and UX**: hands-on QA, UX reviews and WinUI parity checks on everything Uno ships. If a pixel is off, I'll find it.
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/skills-dark.svg"><img alt="Skills: WinUI, Uno Platform, C#, C++, performance, AI agents and more" src="assets/skills-light.svg" width="100%"></picture>
 
@@ -18,7 +18,7 @@
 
 ## 🏆 Achievements unlocked
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/achievements-dark.svg"><img alt="Achievements: top Uno Platform contributor, Microsoft MVP, bug hunter, olympiad medals, Most Active Speaker" src="assets/achievements-light.svg" width="100%"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/achievements-dark.svg"><img alt="Achievements: top Uno Platform contributor, Microsoft MVP, DOOM porter, olympiad medals, Most Active Speaker" src="assets/achievements-light.svg" width="100%"></picture>
 
 ## 🧑‍💻 About me
 
