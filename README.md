@@ -18,7 +18,7 @@
 
 ## 🏆 Achievements unlocked
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/achievements-dark.svg"><img alt="Achievements: top Uno Platform contributor, Microsoft MVP, AI agent tooling, olympiad medals, Most Active Speaker" src="assets/achievements-light.svg" width="100%"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/achievements-dark.svg"><img alt="Achievements: top Uno Platform contributor, Microsoft MVP, bug hunter, olympiad medals, Most Active Speaker" src="assets/achievements-light.svg" width="100%"></picture>
 
 ## 🧑‍💻 About me
 

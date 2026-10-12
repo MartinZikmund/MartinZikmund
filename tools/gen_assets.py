@@ -242,7 +242,7 @@ def achievements(t):
     items = [
         ("#1 Uno Platform contributor", "Most commits since it went open source"),
         ("Microsoft MVP", "Developer Technologies"),
-        ("Agent wrangler", "Built the Claude Code agent setup Uno runs on"),
+        ("Bug hunter", "3,200+ issues filed across Uno Platform repos"),
         ("Bronze medal", "Central European Olympiad in Informatics"),
         ("Double national champion", "Czech Olympiads in Informatics and Linguistics"),
         ("Most Active Speaker", "Sessionize, 2022 and 2024"),
@@ -259,7 +259,7 @@ def achievements(t):
         b.append(f'<text x="{x+76:.1f}" y="{y+44}" font-size="15" class="sb">{escape(title)}</text>')
         b.append(f'<text x="{x+76:.1f}" y="{y+62}" font-size="12" class="s">{escape(sub)}</text>')
     H = 3 * ch + 2 * gap + 1
-    return svg(W, H, "\n".join(b), t, "Achievements: top Uno Platform contributor, Microsoft MVP, AI agent tooling, olympiad medals, Most Active Speaker")
+    return svg(W, H, "\n".join(b), t, "Achievements: top Uno Platform contributor, Microsoft MVP, bug hunter, olympiad medals, Most Active Speaker")
 
 
 for theme, t in THEMES.items():

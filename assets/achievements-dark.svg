@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="840" height="253" viewBox="0 0 840 253" role="img" aria-label="Achievements: top Uno Platform contributor, Microsoft MVP, AI agent tooling, olympiad medals, Most Active Speaker">
-<title>Achievements: top Uno Platform contributor, Microsoft MVP, AI agent tooling, olympiad medals, Most Active Speaker</title>
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="253" viewBox="0 0 840 253" role="img" aria-label="Achievements: top Uno Platform contributor, Microsoft MVP, bug hunter, olympiad medals, Most Active Speaker">
+<title>Achievements: top Uno Platform contributor, Microsoft MVP, bug hunter, olympiad medals, Most Active Speaker</title>
 <style>
 text{font-family:'Segoe UI Variable Text','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif;fill:#FFFFFF}
 .d{font-family:'Segoe UI Variable Display','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif}
@@ -27,8 +27,8 @@ text{font-family:'Segoe UI Variable Text','Segoe UI',-apple-system,BlinkMacSyste
 <circle cx="38.5" cy="126.5" r="24" fill="#433519"/>
 <text x="38.5" y="134.5" font-size="22" text-anchor="middle">🏆</text>
 <text x="76.5" y="112.5" font-size="10" class="c sb" letter-spacing="0.8">ACHIEVEMENT UNLOCKED</text>
-<text x="76.5" y="132.5" font-size="15" class="sb">Agent wrangler</text>
-<text x="76.5" y="150.5" font-size="12" class="s">Built the Claude Code agent setup Uno runs on</text>
+<text x="76.5" y="132.5" font-size="15" class="sb">Bug hunter</text>
+<text x="76.5" y="150.5" font-size="12" class="s">3,200+ issues filed across Uno Platform repos</text>
 <rect x="426.5" y="88.5" width="413.0" height="76" rx="38" fill="#2D2D2D" stroke="#3B3B3B"/>
 <circle cx="464.5" cy="126.5" r="24" fill="#433519"/>
 <text x="464.5" y="134.5" font-size="22" text-anchor="middle">🏆</text>
